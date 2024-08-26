@@ -1,5 +1,13 @@
 1. создать проект
-2. git init - инициализация проекта в гит
-3. git status - проверка новые измененные файлы и папки
-4. git add * - добавить все измененные файлы и папки
-5. git commit -m "описание проекта"
+2. git init - инициализация проекта в гит и сразу создает ветку мастер (локально)
+3. git status - проверка новые измененные файлы и папки (локально)
+4. git add * - добавить все измененные файлы и папки (локально)
+5. git commit -m "описание проекта" - зафиксировать изменения (локально)
+6. git branch -m main - создать ветку мастер (локально)
+гитхаб
+1. git remote add origin "https://github.com/timurtenisbaev/yii2-dynamicform" (локально)
+2. git config credential.username "timurtenisbaev" - добавление имя авторизации
+3. git config credential.password "Pastozuh77" - добавление пароля авторизации
+4. gh auth login - автоматическая авторизация в гитхабе
+5. git push -u origin main (удаленно)
+
